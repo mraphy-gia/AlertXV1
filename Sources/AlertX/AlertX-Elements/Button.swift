@@ -49,7 +49,7 @@ extension AlertX {
                 
             }, label: {
                 text
-                .frame(minWidth: 150, maxWidth: .infinity, alignment: .center)
+                .frame(minWidth: 150, maxWidth: 300, alignment: .center)
                 .padding(.init(top: 10, leading: 10, bottom: 10, trailing: 10))
                 .shadow(radius: 1.0)
             })
