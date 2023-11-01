@@ -111,7 +111,7 @@ public struct AlertX: View {
                     }
                     
             }.background(AlertX.Window(color: theme.windowColor, cornerRadius: self.theme.enableRoundedCorners ? theme.roundedCornerRadius : 0.0, transparencyEnabled: theme.enableTransparency))
-                .frame(alignment: .center)
+                .frame(maxWidth: 350, alignment: .center)
                 .padding()
                 .shadow(radius: alertX_shadowRadius)
                 .cornerRadius(alertX_cornerRadius)
